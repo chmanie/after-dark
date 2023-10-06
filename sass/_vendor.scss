@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'MonoLisa Variable'; // Name it appropriately
+    src: url('MonoLisaVariableNormal.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonoLisa Variable'; // Use the same font-family name for consistency
+    src: url('MonoLisaVariableItalic.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
 html {
   font-size: 12px
 }
@@ -11,7 +25,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: 'MonoLisa Variable', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   word-wrap: break-word
 }
 
@@ -37,6 +51,10 @@ code[class*=language-], pre[class*=language-], pre code {
   font-weight: 100;
   text-shadow: none;
   margin: 1.75rem 0
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
@@ -180,7 +198,7 @@ a:hover {
 .hack, .hack blockquote, .hack code, .hack em, .hack h1, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6, .hack strong {
   font-size: 1rem;
   font-style: normal;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif
+  font-family: 'MonoLisa Variable', Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 
 .hack blockquote, .hack code, .hack em, .hack strong {
@@ -892,7 +910,7 @@ select.form-control {
 }
 
 .dark code {
-  font-weight: 100
+  font-weight: 400
 }
 
 .dark table {

@@ -101,3 +101,7 @@ article [itemprop="summary"] p {
     max-width: 50rem;
   }
 }
+
+pre code span[style*="color:#6d6d6d"] {
+    font-style: italic !important;
+}
